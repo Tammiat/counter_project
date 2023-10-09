@@ -4,7 +4,9 @@ let color = "black"
 function setIncrease(){
     count = count+1;
     document.getElementById("number").innerHTML = count;
-    document.getElementById("number").style.color = "green";
+    if (count > 0) {
+        color = "green";
+      }
 
 }
 document.getElementById("increase")
@@ -14,6 +16,7 @@ function setReset(){
     count = 0;
     document.getElementById("number").innerHTML = count;
     document.getElementById("number").style.color = "black";
+    
 }
 document.getElementById("reset")
 .addEventListener("click", setReset);
