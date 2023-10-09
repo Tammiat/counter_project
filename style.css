@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    font-size: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    color: lavender;
+    background: lightsalmon;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+main button{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
